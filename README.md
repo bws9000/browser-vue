@@ -1,7 +1,7 @@
 # IPFS Vue Example
 
 A BASIC demonstration of how to use `js-ipfs` with `Vue`.
-![https://github.com/ipfs/js-ipfs](https://github.com/ipfs/js-ipfs/tree/master/examples/browser-vue)
+[https://github.com/ipfs/js-ipfs](https://github.com/ipfs/js-ipfs/tree/master/examples/browser-vue)
 ```...
 const IPFS = require('ipfs-core')
 const ipfs = await IPFS.create()
