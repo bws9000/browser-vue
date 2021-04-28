@@ -1,6 +1,14 @@
 # IPFS Vue Example
 
 A BASIC demonstration of how to use `js-ipfs` with `Vue`.
+![https://github.com/ipfs/js-ipfs](https://github.com/ipfs/js-ipfs/tree/master/examples/browser-vue)
+```...
+const IPFS = require('ipfs-core')
+const ipfs = await IPFS.create()
+const { cid } = await ipfs.add('Hello world')
+console.info(cid)
+// QmXXY5ZxbtuYj6DnfApLiGstzPN7fvSyigrRee3hDWPCaf
+```
 
 ![screenshot of the js ipfs node id info](./src/assets/ipfs-vue-screenshot.png)
 
